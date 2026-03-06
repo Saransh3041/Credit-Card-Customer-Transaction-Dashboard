@@ -48,6 +48,16 @@ Financial Risk Score - The Financial Risk Score represents the likelihood of a c
 -	Customer spent $11.2M of their total spendings toward bills payment.
 -	70% People prefer or select swipe option to make payments.
 
+## Tools & Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel (for initial data formatting)
+- Data Modeling & Relationships
+- Interactive Filters & Slicers
 
 
+## Conclusion
+The Credit Card Dashboard provides a clear overview of customer spending patterns, revenue contribution, and credit usage behavior. It helps identify key trends such as payment preferences, spending distribution, and the relationship between credit limits and customer activity.
 
