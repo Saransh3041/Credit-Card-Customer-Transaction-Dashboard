@@ -18,14 +18,14 @@ The dashboards were designed as part of a Power BI analytics project to demonstr
 
 ## Important Terminology
 
-### Financial Stability Score- The Financial Stability Score is a metric used to evaluate the overall financial health of the company.
+Financial Stability Score- The Financial Stability Score is a metric used to evaluate the overall financial health of the company.
 
 - Asset Score - Indicates the strength of a customer's financial assets. A higher score means the customer owns more assets and has stronger financial capacity.
 
 - Income Segment - Classifies customers into different income groups (low, medium, high) based on their earnings to better understand their spending and credit behavior.
 - Liability Score - Represents the level of financial obligations a customer has. A higher score means the customer carries more liabilities or debts.
   
-### Financial Risk Score - The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.
+Financial Risk Score - The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.
 - Utilisation Ratio - Shows how much of the available credit limit a customer is using. A higher utilisation ratio may indicate higher dependency on credit.
 - Debt Score - Represents the level of debt a customer holds. A higher score indicates greater financial obligations and potential repayment pressure.
 - Income Score - Reflects the earning capacity of a customer. Higher income generally suggests better ability to manage credit and repay debts.
