@@ -6,7 +6,7 @@ The dashboards were designed as part of a Power BI analytics project to demonstr
 
 ## Objectives
 - To visualize key customer metrics such as demographics, income, and card usage.
-- To identify and balance the risk behavior
+- To identify and balance the risk behavior of customer.
 - To analyze transaction trends by expenditure type, week, and card category.
 - To enable interactive exploration through filters and slicers for:
 - Gender (Male / Female)
@@ -16,6 +16,6 @@ The dashboards were designed as part of a Power BI analytics project to demonstr
 - Transaction Week
 - Expense Type
 
-
+## 
 
 
