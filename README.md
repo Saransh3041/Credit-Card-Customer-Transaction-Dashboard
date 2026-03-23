@@ -16,7 +16,7 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 | Data Modeling & Relationships | Used to connect multiple tables and build a structured data model for accurate analysis. |
 | Interactive Filters & Slicers | Used to make the dashboard dynamic and allow users to filter data for deeper insights. |
 
-## Significant Measures
+## PowerBI Measures
 **Financial Stability Score-** The Financial Stability Score is a metric used to evaluate the overall financial health of the each customer.Company can use this metrics to make smarter decisions in credit approval, customer targeting, and risk management. 
 
 **DAX**: Financial_Stability_Score = Financial_Stability[Income_score] + Financial_Stability[Asset Score] + Financial_Stability[Behaviour Score]. 
@@ -26,7 +26,7 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 **DAX**: Risk_Score = Financial_Risk[Utilization_score] + Financial_Risk[Debt_Score] + Financial_Risk[Income_Score] + Financial_Risk[Payment_behaviour]
 
 **Per Dependent Income-** Per Dependent Income represents the amount of income available for each dependent in a customer’s household. It shows how income is distributed across dependents and helps understand the customer’s financial burden.
-DAX: Per_dependent_income = Round(customer[Income]/(customer[Dependent_Count]+1),0).
+**DAX:** Per_dependent_income = Round(customer[Income]/(customer[Dependent_Count]+1),0).
 
 ## Insights
 **Sales & Profit**
