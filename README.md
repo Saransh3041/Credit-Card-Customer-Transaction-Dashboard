@@ -6,17 +6,15 @@ A dynamic, interactive data visualization tool built to analyze credit card cust
 ## 2. Project Purpose
 The Credit Card Analytics Dashboard is an interactive Power BI report designed to analyze customer financial behavior, credit usage, and risk patterns through a clear and structured visual experience. It exists to help analysts and decision-makers identify high-risk customers, understand spending and repayment trends, analyse the factor affecting revenue and support smarter credit-related business decisions.
 
-## Objectives
-- To visualize key customer metrics such as demographics, income, and card usage.
-- To identify and balance the risk behavior of customer.
-- To analyze transaction trends by expenditure type, week, and card category.
-- To enable interactive exploration through filters and slicers for:
-1. Gender (Male / Female)
-2. Age Group (18–25, 26–35, 36–45, 46–55, 56+)
-3. Income Group (Low, Medium, High)
-4. Card Category
-5. Transaction Week
-6. Expense Type
+## Tech Stack
+| Tools | Use Case |
+|------------|----------|
+| Power BI Desktop | Used to build the complete interactive dashboard and visual reports. |
+| Power Query | Used for cleaning, transforming, and preparing raw data before analysis. |
+| DAX (Data Analysis Expressions) | Used to create calculated columns, measures, KPIs, and business logic. |
+| Microsoft Excel | Used for initial data formatting and basic data structuring before loading into Power BI. |
+| Data Modeling & Relationships | Used to connect multiple tables and build a structured data model for accurate analysis. |
+| Interactive Filters & Slicers | Used to make the dashboard dynamic and allow users to filter data for deeper insights. |
 
 ## Significant Measures
 **Financial Stability Score-** The Financial Stability Score is a metric used to evaluate the overall financial health of the each customer.Company can use this metrics to make smarter decisions in credit approval, customer targeting, and risk management. 
