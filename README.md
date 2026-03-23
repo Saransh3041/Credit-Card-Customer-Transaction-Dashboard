@@ -1,8 +1,10 @@
-## Project Overview
-This project involves building two interactive Power BI dashboards to analyze credit card customer profiles and transaction behavior.
-It provides actionable insights into customer demographics, income levels, spending patterns, and credit usage trends.
+## Credit Card Dashboard
 
-The dashboards were designed as part of a Power BI analytics project to demonstrate data modeling, DAX calculations, and dashboard storytelling skills.
+## 1.Credit Card Analytics: Customer Risk and Financial Behavior Dashboard
+A dynamic, interactive data visualization tool built to analyze credit card customer data—focusing on spending behavior, financial stability, risk segmentation, credit utilization, and customer-level insights for smarter decision-making.
+
+## 2.Project Purpose
+The Credit Card Analytics Dashboard is an interactive Power BI report designed to analyze customer financial behavior, credit usage, and risk patterns through a clear and structured visual experience. It exists to help analysts and decision-makers identify high-risk customers, understand spending and repayment trends, analyse the factor affecting revenue and support smarter credit-related business decisions.
 
 ## Objectives
 - To visualize key customer metrics such as demographics, income, and card usage.
