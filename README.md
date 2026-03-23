@@ -17,11 +17,11 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 | Interactive Filters & Slicers | Used to make the dashboard dynamic and allow users to filter data for deeper insights. |
 
 ## PowerBI Measures
-1. **Financial Stability Score-** The Financial Stability Score is a metric used to evaluate the overall financial health of the each customer.Company can use this metrics to make smarter decisions in credit approval, customer targeting, and risk management. 
+1. **Financial Stability Score-** The Financial Stability Score is a metric used to evaluate the overall financial health of the each customer.Company can use this metrics to make smarter decisions in credit approval, customer targeting, and risk management.
 
-  **DAX**: Financial_Stability_Score = Financial_Stability[Income_score] + Financial_Stability[Asset Score] + Financial_Stability[Behaviour Score]. 
+    **DAX**: Financial_Stability_Score = Financial_Stability[Income_score] + Financial_Stability[Asset Score] + Financial_Stability[Behaviour Score]. 
 
-2. **Financial Risk Score-** The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.It can be used to classify customers into different risk categories, enabling businesses to assess creditworthiness, reduce default risk and balance the risk and profit.
+3. **Financial Risk Score-** The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.It can be used to classify customers into different risk categories, enabling businesses to assess creditworthiness, reduce default risk and balance the risk and profit.
 
   **DAX**: Risk_Score = Financial_Risk[Utilization_score] + Financial_Risk[Debt_Score] + Financial_Risk[Income_Score] + Financial_Risk[Payment_behaviour]
 
@@ -32,7 +32,7 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 ## Dashboard Features
 - **Business Problem -** The company spends millions of dollars on marketing campaigns, customer awareness programs, and strategies to increase total spending, yet it still faces challenges in expanding and building a strong presence across different states in North America.As a result, identifying underperforming regions, optimizing strategic efforts, and driving balanced market expansion becomes a major challenge. 
 
-
+- **Goal Of Dashboard -** To provide a clear view of customer spending behavior, financial risk, and regional performance across North America.
 
 
 **Sales & Profit**
