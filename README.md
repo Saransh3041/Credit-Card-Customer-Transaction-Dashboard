@@ -16,47 +16,39 @@ The dashboards were designed as part of a Power BI analytics project to demonstr
 - Transaction Week
 - Expense Type
 
-## Important Terminology
+## Significant Measures
+**Financial Stability Score-** The Financial Stability Score is a metric used to evaluate the overall financial health of the each customer.Company can use this metrics to make smarter decisions in credit approval, customer targeting, and risk management. 
+DAX: Financial_Stability_Score = Financial_Stability[Income_score] + Financial_Stability[Asset Score] + Financial_Stability[Behaviour Score]. 
 
-Financial Stability Score- The Financial Stability Score is a metric used to evaluate the overall financial health of the company.
+**Financial Risk Score-** The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.It can be used to classify customers into different risk categories, enabling businesses to assess creditworthiness, reduce default risk and balance the risk and profit.
+DAX: Risk_Score = Financial_Risk[Utilization_score] + Financial_Risk[Debt_Score] + Financial_Risk[Income_Score] + Financial_Risk[Payment_behaviour]
 
-- Asset Score - Indicates the strength of a customer's financial assets. A higher score means the customer owns more assets and has stronger financial capacity.
-
-- Income Segment - Classifies customers into different income groups (low, medium, high) based on their earnings to better understand their spending and credit behavior.
-- Liability Score - Represents the level of financial obligations a customer has. A higher score means the customer carries more liabilities or debts.
-  
-Financial Risk Score - The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.
-- Utilisation Ratio - Shows how much of the available credit limit a customer is using. A higher utilisation ratio may indicate higher dependency on credit.
-- Debt Score - Represents the level of debt a customer holds. A higher score indicates greater financial obligations and potential repayment pressure.
-- Income Score - Reflects the earning capacity of a customer. Higher income generally suggests better ability to manage credit and repay debts.
-- Payment Behavior - Evaluates how consistently a customer pays their dues on time. Regular and timely payments indicate responsible credit management and lower financial risk.
+**Per Dependent Income-** Per Dependent Income represents the amount of income available for each dependent in a customer’s household. It shows how income is distributed across dependents and helps understand the customer’s financial burden.
+DAX: Per_dependent_income = Round(customer[Income]/(customer[Dependent_Count]+1),0).
 
 ## Insights
-
-###	Sales & Profit 
+**Sales & Profit**
 -	Customer total spendings are higher around mid of every month
 -	A strong positive correlation (approx. 0.8) exist between customer total spendings and company profitability.
 -	Company generated $11.2 M profit this year, with 72% directly came from customer interest.
-###	Customers
+**Customers**
 -	Majority of customers (around 80%) fall between the 36–55 age range, with female customers representing 58% of the total.
 -	Only 57% of user have activated their credit card, Notably, Half belongs to Middle Class Segment (income 50k-100k).
 -	High risky customer has major stake in total customer.		
-###	Risk Analysis
+**Risk Analysis**
 -	The medium - income segment (50k-100k)  have maximum credit utilization around 40%.
 -	Risk factor is highly dependable on financial stability, with high stable consumes more.
-### Spendings & Transaction
+**Spendings & Transaction**
 -	Customer spent $11.2M of their total spendings toward bills payment.
 -	70% People prefer or select swipe option to make payments.
 
 ## Tools & Technologies
-
 - Power BI Desktop
 - Power Query
 - DAX (Data Analysis Expressions)
 - Microsoft Excel (for initial data formatting)
 - Data Modeling & Relationships
 - Interactive Filters & Slicers
-
 
 ## Conclusion
 The Credit Card Dashboard provides a clear overview of customer spending patterns, revenue contribution, and credit usage behavior. It helps identify key trends such as payment preferences, spending distribution, and the relationship between credit limits and customer activity.
