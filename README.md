@@ -42,23 +42,10 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
   - **Relationship Between Stability & Risk (Column Chart)** It compares customer financial stability group with their corresponding risk scores. It helps reveal how risk changes 
       across different stability levels.
 
-**Sales & Profit** 
-  - Customer total spendings are higher around mid of every month.
-  - A strong positive correlation (approx. 0.8) exist between customer total spendings and company profitability.
-  - Company generated $11.2 M profit this year, with 72% directly came from customer interest.
-
-**Customers**
--	Majority of customers (around 80%) fall between the 36–55 age range, with female customers representing 58% of the total.
--	Only 57% of user have activated their credit card, Notably, Half belongs to Middle Class Segment (income 50k-100k).
--	High risky customer has major stake in total customer.		
-
-**Risk Analysis**
--	The medium - income segment (50k-100k)  have maximum credit utilization around 40%.
--	Risk factor is highly dependable on financial stability, with high stable consumes more.
-
-**Spendings & Transaction**
--	Customer spent $11.2M of their total spendings toward bills payment.
--	70% People prefer or select swipe option to make payments.
+**Sales & Profit** Customer spending tends to peak around the middle of each month, showing a consistent spending pattern. There is also a strong positive correlation of nearly 0.8 between total customer spending and company profitability. Overall, the company generated $11.2M profit this year, with 72% of it coming directly from customer interest.
+ **Customers** The customer base is largely concentrated in the 36–55 age group, which accounts for nearly 80% of total customers, while female customers make up 58% of the portfolio. Only 57% of customers have activated their credit cards, indicating a sizable inactive segment, and nearly half of the users belong to the middle-income group earning between 50K and 100K. In addition, high-risk customers hold a major share of the total customer base.
+**Risk Analysis** The middle-income segment (50K–100K) shows the highest credit utilization, reaching nearly 40%, which indicates stronger credit usage within this group. The analysis also suggests that the risk factor is closely linked to financial stability, as customers with higher stability tend to consume and use credit more actively.
+**Spendings & Transaction** Customers spent $11.2M of their total spending on bill payments, making it the highest spending category. At the same time, nearly 70% of customers prefer the swipe method for making payments, showing it is the most commonly used payment option.
 
 ## Conclusion
 The Credit Card Dashboard provides a clear overview of customer spending patterns, revenue contribution, and credit usage behavior. It helps identify key trends such as payment preferences, spending distribution, and the relationship between credit limits and customer activity.
