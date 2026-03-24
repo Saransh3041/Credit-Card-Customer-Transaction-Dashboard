@@ -32,7 +32,17 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 ## Dashboard Features
 - **Business Problem -** The company spends millions of dollars on marketing campaigns, customer awareness programs, and strategies to increase total spending, yet it still faces challenges in expanding and building a strong presence across different states in North America.As a result, identifying underperforming regions, optimizing strategic efforts, and driving balanced market expansion becomes a major challenge. 
 
-- **Goal Of Dashboard -** To provide a clear view of customer spending behavior, financial risk, and regional performance across North America.
+- **Goal Of Dashboard -** To provide a clear view of customer spending behavior, financial risk, and regional performance across North America.It helps the business track key metrics, identify growth opportunities, and support data-driven decisions for better customer targeting, risk control, and market expansion.
+- **Walkthrough of Key Visuals-**
+  - **Key KPIs:** Total Revenue(45.5M), Total transactions(667k), Total Customers(10293), Active(5914), Client Feedback(3.19), Risk Score(75.9/100)etc.
+  - **Customer Distribution by State (Map Visual)-** Map visual shows how customers are distributed across different states in North America.
+  - **Monthly Revenue & Profit Trend (Combo Chart)** It displays monthly transaction revenue and profit trend together to track business performance over time.
+  - **Spendings by Category (Bar Chart)** It breaks down customer spending across major expense categories such as bills, entertainment, fuel, and food.
+  - **Total Spendings by Credit Limit (Column Chart)** Shows how customer spending varies across different credit limit, helps assess spending behavior over different credit limit.
+  - **Relationship Between Stability & Risk (Column Chart)** It compares customer financial stability group with their corresponding risk scores. It helps reveal how risk changes 
+      across different stability levels.
+
+
 
 
 **Sales & Profit**
@@ -52,14 +62,6 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 **Spendings & Transaction**
 -	Customer spent $11.2M of their total spendings toward bills payment.
 -	70% People prefer or select swipe option to make payments.
-
-## Tools & Technologies
-- Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel (for initial data formatting)
-- Data Modeling & Relationships
-- Interactive Filters & Slicers
 
 ## Conclusion
 The Credit Card Dashboard provides a clear overview of customer spending patterns, revenue contribution, and credit usage behavior. It helps identify key trends such as payment preferences, spending distribution, and the relationship between credit limits and customer activity.
