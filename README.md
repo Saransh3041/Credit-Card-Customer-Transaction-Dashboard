@@ -54,7 +54,9 @@ The Credit Card Dashboard provides a clear overview of customer spending pattern
 **GitHub:** [github.com/Saransh3041](https://github.com/Saransh3041)
 
 ## 8. Screenshot 
+### Customer Dashboard
 ![Credit-Card-Customer-Transaction-Dashboard](Customer_report.png)
+### Transaction Dashboard
 ![Credit-Card-Customer-Transaction-Dashboard](Transaction_report.png)
 
 
