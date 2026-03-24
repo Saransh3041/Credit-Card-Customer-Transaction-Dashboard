@@ -21,7 +21,7 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
   - **DAX**: Financial_Stability_Score = Financial_Stability[Income_score] + Financial_Stability[Asset Score] + Financial_Stability[Behaviour Score]. 
 
 2. **Financial Risk Score-** The Financial Risk Score represents the likelihood of a customer facing financial difficulty in managing their credit obligations.It can be used to classify customers into different risk categories, enabling businesses to assess creditworthiness, reduce default risk and balance the risk and profit.
-  - **DAX**: Risk_Score = Financial_Risk[Utilization_score] + Financial_Risk[Debt_Score] + Financial_Risk[Income_Score] + Financial_Risk[Payment_behaviour]
+- **DAX**: Risk_Score = Financial_Risk[Utilization_score] + Financial_Risk[Debt_Score] + Financial_Risk[Income_Score] + Financial_Risk[Payment_behaviour]
 
 3. **Per Dependent Income-** Per Dependent Income represents the amount of income available for each dependent in a customer’s household. It shows how income is distributed across dependents and helps understand the customer’s financial burden.
   - **DAX:** Per_dependent_income = Round(customer[Income]/(customer[Dependent_Count]+1),0).
