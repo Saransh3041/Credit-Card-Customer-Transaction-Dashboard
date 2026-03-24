@@ -42,9 +42,10 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
   - **Relationship Between Stability & Risk (Column Chart)** It compares customer financial stability group with their corresponding risk scores. It helps reveal how risk changes 
       across different stability levels.
 
-**Sales & Profit** - Customer total spendings are higher around mid of every month.
-   - A strong positive correlation (approx. 0.8) exist between customer total spendings and company profitability.
-   - Company generated $11.2 M profit this year, with 72% directly came from customer interest.
+**Sales & Profit** 
+  - Customer total spendings are higher around mid of every month.
+  - A strong positive correlation (approx. 0.8) exist between customer total spendings and company profitability.
+  - Company generated $11.2 M profit this year, with 72% directly came from customer interest.
 
 **Customers**
 -	Majority of customers (around 80%) fall between the 36–55 age range, with female customers representing 58% of the total.
