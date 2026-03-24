@@ -47,3 +47,14 @@ The Credit Card Analytics Dashboard is an interactive Power BI report designed t
 ## 6. Conclusion
 The Credit Card Dashboard provides a clear overview of customer spending patterns, revenue contribution, and credit usage behavior. It helps identify key trends such as payment preferences, spending distribution, and the relationship between credit limits and customer activity.
 
+## 7. Author
+**Saransh Goyal**  
+**Email:** goyalsaransh61@gmail.com  
+**LinkedIn:** [linkedin.com/in/saranshgoyal007](https://www.linkedin.com/in/saranshgoyal007/)  
+**GitHub:** [github.com/Saransh3041](https://github.com/Saransh3041)
+
+## 8. Screenshot 
+
+
+
+
